@@ -37,8 +37,7 @@ jobs:
       run: go build main.go
 
     - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v3.2.2
+      uses: actions/upload-artifact@v4
       with:
         name: compilado_project
         path: main
-        
